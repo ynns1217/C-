@@ -19,8 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InlineFunc.cpp" />
-    <ClCompile Include="NameSp1.cpp" />
+    <ClCompile Include="RefArrElem.cpp" />
+    <ClCompile Include="Referen.cpp" />
+    <ClCompile Include="RefPtr.cpp" />
+    <ClCompile Include="RefSwap.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InlineFunc.cpp">
+    <ClCompile Include="Referen.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NameSp1.cpp">
+    <ClCompile Include="RefArrElem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RefPtr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RefSwap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
