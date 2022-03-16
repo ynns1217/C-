@@ -19,16 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RefArrElem.cpp" />
-    <ClCompile Include="Referen.cpp" />
-    <ClCompile Include="RefPtr.cpp" />
-    <ClCompile Include="RefSwap.cpp" />
+    <ClCompile Include="Makeclass.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e3d184e9-7f5c-46d5-949e-f8be1e577305}</ProjectGuid>
-    <RootNamespace>C</RootNamespace>
+    <ProjectGuid>{95fea082-a71a-4d06-bb0d-1e14cedab5b6}</ProjectGuid>
+    <RootNamespace>Cplus</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
