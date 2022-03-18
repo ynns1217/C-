@@ -1,3 +1,5 @@
+//상속의 깊이를 하나 더 해서 작성
+
 #include <iostream>
 #include <cstring>
 #pragma warning(disable:4996)

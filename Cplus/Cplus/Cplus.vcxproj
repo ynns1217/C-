@@ -19,9 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HibrydCar.cpp" />
-    <ClCompile Include="ISAIngeritance.cpp" />
-    <ClCompile Include="ProtectedHeri.cpp" />
+    <ClCompile Include="HASComposite.cpp" />
+    <ClCompile Include="HASinheritance.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
