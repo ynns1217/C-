@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Makeclass.cpp" />
+    <ClCompile Include="MyFriendClass.cpp" />
+    <ClCompile Include="MyFriendFunction.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
