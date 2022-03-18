@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyFriendClass.cpp">
+    <ClCompile Include="HibrydCar.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="MyFriendFunction.cpp">
+    <ClCompile Include="ProtectedHeri.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ISAIngeritance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
