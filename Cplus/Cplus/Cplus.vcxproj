@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HASComposite.cpp" />
-    <ClCompile Include="HASinheritance.cpp" />
+    <ClCompile Include="EmployeeManager4.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
