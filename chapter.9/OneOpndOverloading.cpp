@@ -6,9 +6,13 @@ class Point
 private:
 	
 
-public:    int xpos, ypos;
+public:
+	
+	int xpos, ypos;
+
 	Point(int x = 0, int y = 0) : xpos(x), ypos(y)
 	{}
+
 	void ShowPosition() const
 	{
 		cout << '[' << xpos << "," << ypos << ']' << endl;
@@ -21,6 +25,7 @@ public:    int xpos, ypos;
 
 		return *this;
 	}
+
 	friend Point& operator--(Point& ref);
 };
 
