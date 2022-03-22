@@ -23,6 +23,7 @@ private:
 
 public:
 	Account(int id, int money, char* name);
+	Account(int& ref);
 	//계좌개설 함수
 	//입금 함수
 	//출금함수
@@ -35,6 +36,13 @@ Account::Account(int id, int money, char* name) : ID(id), Money(money)
 	Name = new char[strlen(name) + 1];
 	strcpy(Name, name);
 }
+
+Account::Account(int &ref,int money) : ID(ref),Money(money)
+{
+	Money += money;
+}
+
+
 Account::~Account()
 {
 	delete[]Name;
@@ -88,5 +96,8 @@ void Menu()
 
 int main(void)
 {
-
+	while (1)
+	{
+		Menu();
+	}
 }
