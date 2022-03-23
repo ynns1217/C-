@@ -5,8 +5,10 @@ class Number
 {
 private:
 	int num;
+
 public:
 	Number(int n) : num(n) {}
+
 	void ShowData() { cout << num << endl; }
 
 	Number* operator->()
@@ -27,6 +29,7 @@ int main(void)
 
 	(*num) = 30;
 	num->ShowData();
+
 	(*num).ShowData();
 
 	return 0;
