@@ -33,12 +33,14 @@ public:
 
 	Human& operator=(const Human& ref) 
 	{
+		delete[]Name;
+
 		Age = ref.Age;
-		Name = new char[strlen(ref.Name) + 1];
-
+		strcpy(Name, ref.Name);
 		return *this;
-	}
 
+		// 동적할당안하고 Name=ref.Name;도 돌아감
+	}
 };
 
 
