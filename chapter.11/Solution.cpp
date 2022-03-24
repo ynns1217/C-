@@ -7,6 +7,7 @@ class Human
 private:
 	char* Name;
 	int Age;
+
 public:
 	Human(const char* name, int age) :Age(age)
 	{
@@ -43,8 +44,6 @@ public:
 	}
 };
 
-
-
 int main(void)
 {
 	Human man("ÀÌ¼ø½Å", 50);
@@ -55,5 +54,4 @@ int main(void)
 
 	Human xman = man;
 	xman.printHuman();
-
 }

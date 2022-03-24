@@ -16,6 +16,8 @@ public:
 		void* adr = new char[size];
 		return adr;
 	}
+
+
 	static void* operator new[](size_t size)
 	{
 		cout << "operater new[] :" << size << endl;
