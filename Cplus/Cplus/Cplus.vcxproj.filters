@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
+    <ClCompile Include="\\210.119.12.81\공유폴더\평가\C++\선엘림\source_선엘림.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

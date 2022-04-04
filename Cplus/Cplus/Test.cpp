@@ -57,6 +57,7 @@ public:
         cout << "Publisher : " << Publisher << endl;
     }
 };
+
 class CD :public Product                //CD 클래스 생성 후 Product 클래스 상속
 {
 private:
@@ -104,6 +105,7 @@ private:
 
     static int idx;                         //static idx변수 선언
     Product* pobj[100];                     //모든 상품 동적할당할 배열
+
 public:
     Handle() {}
 
@@ -204,18 +206,16 @@ public:
         idx++;
     }
 
-    void Bye(void)                    
+    void Bye(void)
     {
+        int num;
 
-        cout <<"삭제할 Idx 입력" <<endl;
-        cout << "Idx : "; cin >> idx;
+        cout << "삭제할 Idx 입력" << endl;
+        cout << "Idx : "; cin >> num;
         cout << endl;
 
-        for (vector<int>::iterator it = prod_list.begin(); it != prod_list.end();) {
-
-                it = prod_list.erase(prod_list.begin() + idx);
-          
-        }
+        vector<int>::iterator it = prod_list.begin()+ num;
+        prod_list.erase(it);
 
     }
 
@@ -253,14 +253,18 @@ int main(void)
         case PLUS:
             manager.PlusPro();
             break;
+
         case ALL:
             manager.ShowAll_book();
             break;
+
         case Bye:
             manager.Bye();
             break;
+
         case EXIT:
             return 0;
+
         default:
             cout << "잘못입력" << endl;
         }
